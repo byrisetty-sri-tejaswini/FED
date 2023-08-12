@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Display Colors
+        </title>
+        <script type="text/javascript">
+            function changeBgColor(clr)
+            {
+                document.body.style.backgroundColor=clr;
+            }
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <input type="button" value="RED" onClick="changeBgColor('red')"/>
+                </td>
+                <td>
+                    <input type="button" value="GREEN" onClick="changeBgColor('green')" />
+                </td>
+                <td>
+                    <input type="button" value="BLUE" onClick="changeBgColor('blue')" />
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

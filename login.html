@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Form</title>
+<style>
+input[type=text],input[type=password]{
+        color:white;
+	margin:10px;
+	height:40px;
+	width:90%;
+	font-size:20px; 
+	border:0px;
+	border-bottom:3px solid pink; 
+}
+img{
+	width:20%;
+	
+}
+#btn{
+	background-color:#E30B5C;
+	color:white;
+	border-radius:5px;
+	margin:10px;
+	height:45px;
+	width:90%;
+	font-size:20px;
+	border:0;
+}
+h1{
+	margin-left:20px;
+}
+u{
+	padding-left:2px;
+	 text-decoration: none; 
+	border-bottom:4px solid pink; 
+}
+form{
+	position:absolute;
+	top:80px;
+	left:550px;
+	right:550px;
+	height:570px;
+}
+button{
+       display: flex;
+       position:absolute;
+       align-items:center;
+       color:white;
+       border:0;
+       border-radius:5px;
+       margin:10px;
+       height:45px;
+       width:90%;
+       font-size:20px;
+       margin-left:20px;	
+    } 
+</style>
+</head>
+<body style="background-color:#E30B5C">
+<form action="" style="background-color:white">
+<div class="headings">
+<h1><u>Lo</u>gin</h1>
+</div>
+<div class="main">
+<input type="text" style="margin-left:20px" placeholder="Enter username" name="username" required>
+<br><br>
+<input type="password" style="margin-left:20px" placeholder="Password" name="password" required>
+<br><br>
+<input type="button" style="margin-left:20px"id="btn" name="Login" value="Continue">
+<br>
+<p align="center">or Connect with Social Media</p>
+<button style="background-color:#0FFFFF">
+        <img src="twitter.png" alt="Twitter" height="25" width="5">        Sign in with Twitter
+    </button>
+<br><br><br></br>
+<button style="background-color:blue">
+<img src="fb.png" alt="fb" height="30" weight="30">
+Sign in with Facebook
+</button>
+<br>
+</div>
+</form>
+</body>
+</html>
+
